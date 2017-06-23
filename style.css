@@ -1,0 +1,44 @@
+.btn-file {
+  position: relative;
+  overflow: hidden;
+}
+.btn-file input[type=file] {
+  position: absolute;
+  top: 0;
+  right: 0;
+  min-width: 100%;
+  min-height: 100%;
+  font-size: 100px;
+  text-align: right;
+  filter: alpha(opacity=0);
+  opacity: 0;
+  outline: none;
+  background: white;
+  cursor: inherit;
+  display: block;
+}
+.main-row{
+  margin-top: 40px;
+}
+.thumb{
+  width:100px;
+  height: auto;
+}
+.txt{
+  white-space: pre-wrap;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 14px;
+  background: #F5F5F5;
+}
+.emoji{
+  width: 15px;
+}
+h3{
+  margin-top: 0;
+}
+
+.thumb {
+  width: 50px;
+  height: 50px;
+}
